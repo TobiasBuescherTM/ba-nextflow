@@ -8,8 +8,7 @@ include {missing_percent} from "./modules/80%/80%.nf"
 include {cv_icc} from "./modules/cv_icc/cv_icc.nf"
 include {imputation} from "./modules/imputation/imputation.nf"
 include {vsn} from "./modules/vsn/vsn.nf"
-
-
+ 
 
 params {
     //init

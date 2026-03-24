@@ -1,1 +1,0 @@
-/root/projects/modules/vsn/vsn.r
