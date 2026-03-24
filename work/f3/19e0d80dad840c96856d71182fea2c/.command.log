@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/projects/work/f3/19e0d80dad840c96856d71182fea2c/replicate_zero.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

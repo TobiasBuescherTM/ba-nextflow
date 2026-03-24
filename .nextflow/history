@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2026-02-27 17:21:27	9m 14s	soggy_brown	OK	b6aaa7f4248f499b3eb98dcde30acf88	11ffb26a-a27b-45f5-8af5-777de5f77cc2	nextflow run main.nf
+2026-02-28 06:04:03	5.3s	sad_lichterman	ERR	b6aaa7f4248f499b3eb98dcde30acf88	297b3d69-2ccc-46f9-acf3-08388d6a927f	nextflow run main.nf
+2026-02-28 14:25:24	7m 6s	elegant_ochoa	OK	b6aaa7f4248f499b3eb98dcde30acf88	746a71d6-64ce-49e6-ac50-82265a350175	nextflow run main.nf
+2026-03-23 19:20:19	6.2s	kickass_lagrange	ERR	b6aaa7f4248f499b3eb98dcde30acf88	489c3310-3993-482b-88ed-b1183badd378	nextflow run main.nf
+2026-03-23 22:15:42	3m 19s	admiring_lichterman	ERR	b6aaa7f4248f499b3eb98dcde30acf88	62420c96-06bf-404c-890c-dc5f4fabea77	nextflow run main.nf
+2026-03-23 22:21:07	13.9s	boring_venter	ERR	b6aaa7f4248f499b3eb98dcde30acf88	62420c96-06bf-404c-890c-dc5f4fabea77	nextflow run main.nf -resume
+2026-03-23 22:22:17	5.9s	soggy_fermi	ERR	b6aaa7f4248f499b3eb98dcde30acf88	62420c96-06bf-404c-890c-dc5f4fabea77	nextflow run main.nf -resume
+2026-03-23 22:25:09	1m 36s	adoring_volta	OK	b6aaa7f4248f499b3eb98dcde30acf88	62420c96-06bf-404c-890c-dc5f4fabea77	nextflow run main.nf -resume
+2026-03-23 22:31:01	-	amazing_meninsky	-	b6aaa7f4248f499b3eb98dcde30acf88	96584f86-e65c-43a2-a471-0ab126332a1a	nextflow run main.nf
+2026-03-23 22:34:02	5.9s	jovial_boltzmann	ERR	b6aaa7f4248f499b3eb98dcde30acf88	ddf6a776-ed21-41e5-a6fd-67083f28e460	nextflow run main.nf
+2026-03-23 22:34:40	4.8s	golden_mendel	ERR	b6aaa7f4248f499b3eb98dcde30acf88	edb127eb-772e-40db-8120-9d613f143806	nextflow run main.nf
+2026-03-23 22:36:14	5.9s	furious_torvalds	ERR	b6aaa7f4248f499b3eb98dcde30acf88	d31fa459-ac30-437f-a2ad-cc88f148d9a6	nextflow run main.nf
+2026-03-23 22:40:18	5.3s	admiring_leavitt	ERR	b6aaa7f4248f499b3eb98dcde30acf88	88df9c6f-c60c-43d8-a32b-ed6f589ca69a	nextflow run main.nf
+2026-03-23 22:42:11	32.8s	evil_golick	ERR	b6aaa7f4248f499b3eb98dcde30acf88	f30ab73f-c484-4e59-aad6-edf059fed965	nextflow run main.nf
+2026-03-23 22:45:08	3m 37s	special_swartz	OK	b6aaa7f4248f499b3eb98dcde30acf88	f30ab73f-c484-4e59-aad6-edf059fed965	nextflow run main.nf -resume
+2026-03-23 23:00:33	5m 20s	desperate_lamport	OK	b6aaa7f4248f499b3eb98dcde30acf88	5fe66382-841e-4092-90ee-9260ab910c4a	nextflow run main.nf

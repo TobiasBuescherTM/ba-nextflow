@@ -1,0 +1,159 @@
+Bioconductor version '3.20' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version 3.20 (BiocManager 1.30.27), R 4.4.2 (2024-10-31)
+Installing package(s) 'MAI'
+also installing the dependencies 'sass', 'bslib', 'gargle', 'systemfonts', 'textshaping', 'fs', 'rmarkdown', 'googledrive', 'googlesheets4', 'ragg', 'reprex', 'rvest', 'xml2', 'tidyverse'
+
+trying URL 'https://cloud.r-project.org/src/contrib/sass_0.4.10.tar.gz'
+Content type 'application/x-gzip' length 3025163 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bslib_0.10.0.tar.gz'
+Content type 'application/x-gzip' length 5769350 bytes (5.5 MB)
+==================================================
+downloaded 5.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gargle_1.6.1.tar.gz'
+Content type 'application/x-gzip' length 629852 bytes (615 KB)
+==================================================
+downloaded 615 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/systemfonts_1.3.2.tar.gz'
+Content type 'application/x-gzip' length 594775 bytes (580 KB)
+==================================================
+downloaded 580 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/textshaping_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 77066 bytes (75 KB)
+==================================================
+downloaded 75 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fs_2.0.0.tar.gz'
+Content type 'application/x-gzip' length 1471182 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rmarkdown_2.30.tar.gz'
+Content type 'application/x-gzip' length 2200008 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/googledrive_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 1615911 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/googlesheets4_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 231280 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ragg_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 438353 bytes (428 KB)
+==================================================
+downloaded 428 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/reprex_2.1.1.tar.gz'
+Content type 'application/x-gzip' length 1089023 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rvest_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 121721 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/xml2_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 154697 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_2.0.0.tar.gz'
+Content type 'application/x-gzip' length 704618 bytes (688 KB)
+==================================================
+downloaded 688 KB
+
+trying URL 'https://bioconductor.org/packages/3.20/bioc/src/contrib/MAI_1.12.0.tar.gz'
+Content type 'application/gzip' length 464141 bytes (453 KB)
+==================================================
+downloaded 453 KB
+
+* installing *source* package 'systemfonts' ...
+** package 'systemfonts' successfully unpacked and MD5 sums checked
+** using staged installation
+Package fontconfig was not found in the pkg-config search path.
+Perhaps you should add the directory containing `fontconfig.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'fontconfig', required by 'virtual:world', not found
+Package 'freetype2', required by 'virtual:world', not found
+** libs
+using C++ compiler: 'x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-18) 15.2.0'
+In file included from caches.h:6,
+                 from caches.cpp:1:
+FontDescriptor.h:8:10: fatal error: ft2build.h: No such file or directory
+    8 | #include <ft2build.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [/opt/micromamba/envs/nextflow_env/lib/R/etc/Makeconf:204: caches.o] Error 1
+ERROR: compilation failed for package 'systemfonts'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/systemfonts'
+* installing *source* package 'fs' ...
+** package 'fs' successfully unpacked and MD5 sums checked
+** using staged installation
+Building static libuv
+** libs
+using C++ compiler: 'x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-18) 15.2.0'
+/bin/sh: 2: cmake: not found
+make: *** [Makevars:44: libuv] Error 127
+ERROR: compilation failed for package 'fs'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/fs'
+* installing *source* package 'xml2' ...
+** package 'xml2' successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: 'x86_64-conda-linux-gnu-cc (conda-forge gcc 15.2.0-18) 15.2.0'
+using C++ compiler: 'x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-18) 15.2.0'
+/opt/micromamba/envs/nextflow_env/bin/../libexec/gcc/x86_64-conda-linux-gnu/15.2.0/ld: cannot find -lxml2: No such file or directory
+collect2: error: ld returned 1 exit status
+make: *** [/opt/micromamba/envs/nextflow_env/lib/R/share/make/shlib.mk:10: xml2.so] Error 1
+ERROR: compilation failed for package 'xml2'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/xml2'
+ERROR: dependency 'fs' is not available for package 'sass'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/sass'
+ERROR: dependency 'fs' is not available for package 'gargle'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/gargle'
+ERROR: dependency 'systemfonts' is not available for package 'textshaping'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/textshaping'
+ERROR: dependency 'xml2' is not available for package 'rvest'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/rvest'
+ERROR: dependency 'sass' is not available for package 'bslib'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/bslib'
+ERROR: dependency 'gargle' is not available for package 'googledrive'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/googledrive'
+ERROR: dependencies 'systemfonts', 'textshaping' are not available for package 'ragg'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/ragg'
+ERROR: dependency 'bslib' is not available for package 'rmarkdown'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/rmarkdown'
+ERROR: dependencies 'gargle', 'googledrive' are not available for package 'googlesheets4'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/googlesheets4'
+ERROR: dependencies 'fs', 'rmarkdown' are not available for package 'reprex'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/reprex'
+ERROR: dependencies 'googledrive', 'googlesheets4', 'ragg', 'reprex', 'rvest', 'xml2' are not available for package 'tidyverse'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/tidyverse'
+ERROR: dependency 'tidyverse' is not available for package 'MAI'
+* removing '/opt/micromamba/envs/nextflow_env/lib/R/library/MAI'
+
+The downloaded source packages are in
+	'/tmp/Rtmp2CsYF5/downloaded_packages'
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+There were 15 warnings (use warnings() to see them)
+Bioconductor version 3.20 (BiocManager 1.30.27), R 4.4.2 (2024-10-31)
+Warning message:
+package(s) not installed when version(s) same as or greater than current; use
+  `force = TRUE` to re-install: 'impute' 
+Error in contrib.url(repos, type) : 
+  trying to use CRAN without setting a mirror
+Calls: install.packages -> startsWith -> contrib.url
+Execution halted

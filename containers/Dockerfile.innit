@@ -1,0 +1,20 @@
+# Use an official Python image
+FROM python:3.11-slim
+
+# Upgrade pip (optional but recommended)
+RUN python -m pip install --upgrade pip
+
+
+
+
+# Install dependencies
+RUN pip install --no-cache-dir \
+    pandas \
+    open_nipals \
+    seaborn \
+    matplotlib \
+    numpy \
+    argparse
+
+# Set a working directory inside the container
+WORKDIR /app

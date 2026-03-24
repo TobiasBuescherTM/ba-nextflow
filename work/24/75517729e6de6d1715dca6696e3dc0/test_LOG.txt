@@ -1,0 +1,11 @@
+innitStart: 2026-03-23 22:42:19
+innitClose: 2026-03-23 22:42:42
+replicate_zeroStart: 2026-03-23 22:45:16
+metabolites_below_25th_percentile: ['Metabolite_024', 'Metabolite_025', 'Metabolite_047', 'Metabolite_052', 'Metabolite_054', 'Metabolite_057', 'Metabolite_059', 'Metabolite_060', 'Metabolite_061', 'Metabolite_064', 'Metabolite_066', 'Metabolite_068', 'Metabolite_071', 'Metabolite_072', 'Metabolite_075', 'Metabolite_077', 'Metabolite_083', 'Metabolite_084', 'Metabolite_088', 'Metabolite_093', 'Metabolite_095', 'Metabolite_098', 'Metabolite_101', 'Metabolite_105', 'Metabolite_106', 'Metabolite_107', 'Metabolite_113', 'Metabolite_115', 'Metabolite_117', 'Metabolite_118', 'Metabolite_121']
+replicate_zeroClose: 2026-03-23 22:45:42
+qcomicsStart: 2026-03-23 22:45:46
+metabolites_effected: ['Metabolite_057', 'Metabolite_098', 'Metabolite_106', 'Metabolite_117', 'Metabolite_121', 'Metabolite_106']
+qcomicsClose: 2026-03-23 22:46:10
+80%Start: 2026-03-23 22:46:14
+metabolites_filtered_out: []
+80%Close: 2026-03-23 22:46:38

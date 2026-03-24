@@ -1,0 +1,30 @@
+# Dockerfile for R 4.4.2 + Python environment
+FROM r-base:4.4.2
+
+# System dependencies
+RUN apt-get update && apt-get install -y \
+    python3 python3-venv python3-dev \
+    libcurl4-openssl-dev libssl-dev libxml2-dev \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create virtual environment
+RUN python3 -m venv /opt/venv
+
+# Use venv and install Python packages
+RUN /opt/venv/bin/pip install --upgrade pip
+RUN /opt/venv/bin/pip install numpy pandas matplotlib seaborn open_nipals
+
+# Make venv default
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Install R packages
+RUN R -e "install.packages(c('optparse','dplyr'), repos='https://cloud.r-project.org')"
+RUN R -e "if (!require('BiocManager', quietly=TRUE)) install.packages('BiocManager', repos='https://cloud.r-project.org'); \
+           BiocManager::install('MAI'); \
+           BiocManager::install('impute'); \
+           if (!requireNamespace('imputeLCMD', quietly=TRUE)) install.packages('imputeLCMD', repos='https://cloud.r-project.org'); \
+           if (!requireNamespace('missForest', quietly=TRUE)) install.packages('missForest', repos='https://cloud.r-project.org')"
+
+
+WORKDIR /app

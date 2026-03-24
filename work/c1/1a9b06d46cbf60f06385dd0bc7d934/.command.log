@@ -1,0 +1,256 @@
+Bioconductor version '3.20' is out-of-date; the current release version '3.22'
+  is available with R version '4.5'; see https://bioconductor.org/install
+Bioconductor version 3.20 (BiocManager 1.30.27), R 4.4.2 (2024-10-31)
+Warning message:
+package(s) not installed when version(s) same as or greater than current; use
+  `force = TRUE` to re-install: 'vsn' 
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, aperm, append,
+    as.data.frame, basename, cbind, colnames, dirname, do.call,
+    duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted,
+    lapply, mapply, match, mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, rank, rbind, rownames, sapply, saveRDS, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1648: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  center = (self.convert_xunits(self._center[0]),
+/opt/micromamba/envs/nextflow_env/lib/python3.11/site-packages/matplotlib/patches.py:1649: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  self.convert_yunits(self._center[1]))
+                 PC1       PC2 Group     qc TECH_replica
+pooled_1   -1.852507  0.629235     1   TRUE            1
+pooled_2   -1.908812  0.837997     1   TRUE            1
+pooled_3   -1.760239  0.465845     1   TRUE        FALSE
+pooled_4   -1.936876  1.011797     1   TRUE        FALSE
+pooled_5   -1.845242  0.779499     1   TRUE        FALSE
+...              ...       ...   ...    ...          ...
+SCRAPED_46  3.323882 -0.152056     3  FALSE           49
+SCRAPED_47  4.087561  0.090739     3  FALSE           50
+SCRAPED_48  3.891389  0.126025     3  FALSE           50
+SCRAPED_49  4.045967  0.118313     3  FALSE           51
+SCRAPED_50  3.248209 -0.212011     3  FALSE           51
+
+[111 rows x 5 columns]
