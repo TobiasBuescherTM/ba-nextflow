@@ -93,7 +93,7 @@ Each module runs in its own container, orchestrated by Nextflow.
 
 1. **Format your data.** Use `csv_formater.py` to load your MS data table, set the data groups (biological groups, technical variations and QC samples), and export the formatted table.
 
-2. **Add the data.** Put the formatted table into the `input` folder.
+2. **Add the data.** Put the formatted table into the `input_data` folder.
 
 3. **Run the pipeline.** From the root directory of the repository, execute:
 
@@ -101,4 +101,4 @@ Each module runs in its own container, orchestrated by Nextflow.
    nextflow run main.nf -name "Experiment name"
    ```
 
-4. **Collect the results.** Once all steps have completed, you will find all results in the `output` folder under the experiment name you set.
+4. **Collect the results.** Once all steps have completed, you will find all results in the `results/outputs` folder under the experiment name you set.
