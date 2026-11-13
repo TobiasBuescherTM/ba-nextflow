@@ -1,6 +1,3 @@
-# Project Name
-
-Short description of what this pipeline does.
 
 ## Installation
 
