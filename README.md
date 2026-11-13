@@ -61,7 +61,7 @@ Each module runs in its own container, orchestrated by Nextflow.
    docker build -t tobiasbueschertm/nf-vsn -f containers/Dockerfile.vsn .
    ```
 
-2. Download and install Nextflow from `<NEXTFLOW_LINK>`, for example:
+2. Download and install Nextflow from `https://www.nextflow.io`, for example:
 
    ```bash
    curl -s https://get.nextflow.io | bash
